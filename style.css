@@ -1,0 +1,54 @@
+body {
+	font-family: GeoSlab703 MdCn BT;
+	background: purple;
+}
+
+h2 {
+	margin: 5px 0;
+}
+
+h1 {
+	font-family: Freehand521 BT;
+	text-align: center;
+}
+
+#wrapper {
+	width: 600px
+	margin: 0 auto;
+	background: white;
+	padding: 10px 1px;
+	border-radius: 10px;
+}
+
+input {
+	margin: 5px 10px;
+}
+
+button {
+	font-size: 10px;
+	padding: 10px;
+	margin: 20px 0;
+	color: red;
+    border-radius: 0;
+    border-radius: 10px;
+    border-bottom: 3px solid #333;
+}
+
+#submit {
+	background: purple;
+}
+ 
+#reset {
+	background: blue;
+} 
+
+#results {
+	border:1px dashed #ccc;
+	background: #eee;
+	padding: 10px;
+}
+
+p {
+	font-family: fantasy;
+	font-size: 10px;
+}

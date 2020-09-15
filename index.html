@@ -1,0 +1,85 @@
+ <!DOCTYPE html>
+ <html>
+ <head>
+ 	<title>Javascript</title>
+ 	<link rel="stylesheet" type="text/css" href="style.css">
+ </head>
+ <body>
+ 	<div id="wrapper">
+      <h1>Javascript Quiz Game</h1>
+      <p><h2>Take this quiz to find out, your knowledge in Javascript</h2></p>
+
+    <form id="Quiz">
+
+      <p id="demo">
+   	  <button type="button" onclick="document.getElementById('demo').innerHTML = Date()">Click me to display Date and Time.</button>
+   	  </p>
+
+      <!--Question 1 -->
+      <h2>Which tool can you use to ensure code quality?</h2>
+    	<label><input type="radio" name="q1" value="o1">
+          RequireJS
+    	</label><br>
+    	<label><input type="radio" name="q1" value="o2">
+    	  Angular
+    	</label><br>
+    	<label><input type="radio" name="q1" value="o3">
+          ESLint
+    	</label><br>
+
+      <!--Question 2 -->
+      <h2>Who invented JavaScript?</h2>
+        <label><input type="radio" name="q2" value="o1">
+          Mark Zuckerberg
+        </label><br>
+        <label><input type="radio" name="q2" value="o2">
+          Brendan Eich
+        </label><br>
+        <label><input type="radio" name="q2" value="o3">
+          Sheryl Sandberg
+        </label><br>
+
+      <!-- Quesion 3 -->
+      <h2>Which one of these is a Javascript package manager?</h2>
+        <label><input type="radio" name="q3" value="o1">
+          npm
+        </label><br>
+        <label><input type="radio" name="q3" value="o2">
+          Node.js
+        </label><br>
+        <label><input type="radio" name="q3" value="o3">
+          jQuery
+        </label><br>
+
+      <!-- Question 4 -->
+      <h2>Inside which HTML element do we put the Javascript?</h2>
+        <label><input type="radio" name="q4" value="o1">
+          script
+        </label><br>  
+        <label><input type="radio" name="q4" value="o2">
+          JavaScript
+        </label><br>
+       	<label><input type="radio" name="q4" value="o3">
+       	  js
+       	</label><br>
+
+      <!-- Question 5 -->
+      <h2>Where is the correct place to insert a Javascript?</h2>
+        <label><input type="radio" name="q5" value="o1">
+        	The body section
+        </label><br>  
+        <label><input type="radio" name="q5" value="o2">
+          Both the head section and the body section are correct
+        </label><br> 
+        <label><input type="radio" name="q5" value="o3">
+          The head section
+        </label><hr>
+      <button type="submit" id="submit" onclick="tabulateresults()">Get Results</button>
+      <button type="reset" id="reset" onclick="resetResults()">Reset</button>
+    </form>
+      <div id="results">Your results will show up here!</div>
+    </div>
+
+    <script type="text/javascript" src="script.js"></script>
+ </body>
+ </html>
